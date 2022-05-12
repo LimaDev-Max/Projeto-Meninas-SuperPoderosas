@@ -4,7 +4,7 @@
 
 ## Descrição
 
-<p>Projeto de seleção de persongens Meninas Super Poderosas <a href="https://www.youtube.com/c/DevemDobro">Dev em Dobro</a>.</p>
+<p>Projeto de seleção de persongens Meninas Super Poderosas.</p>
 
 
 ## Linguagens Utilizadas
