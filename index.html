@@ -1,12 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="src/imagens/fav.png" type="image/x-icon">
+  <title> |Meninas SuperPoderosas|</title>
+  <link rel="stylesheet" href="./src/css/reset.css" />
+  <link rel="stylesheet" href="./src/css/fontes.css" />
+  <link rel="stylesheet" href="./src/css/estilo.css" />
+  <link rel="stylesheet" href="./src/css/animacoes.css" />
+  <link rel="stylesheet" href="./src/css/responsivo.css" />
 </head>
+
 <body>
-    <h1>oi</h1>
+  <main>
+    <header class="cabecalho">
+      <h1 class="titulo">Character Select</h1>
+    </header>
+
+    <div class="selecao-de-personagens">
+      <div class="personagem-grande personagem-jogador-1">
+        <img src="./src/imagens/Docinho MENOR.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1" />
+        <div class="nome">
+          <h2>Docinho</h2>
+        </div>
+      </div>
+
+      <ul class="lista-de-personagens">
+        <li class="personagem selecionado" id="Docinho" data-name="Docinho">
+          <span class="tag">1P</span>
+          <img src="./src/imagens/Docinho QUADRADO.jpg" alt="Personagem Docinho" />
+        </li>
+
+        <li class="personagem" id="Ele" data-name="ele">
+          <span class="tag">1P</span>
+          <img src="./src/imagens/Ele QUADRADO.jpg" alt="Personagem Ele" />
+        </li>
+        <li class="personagem" id="Florzinha" data-name="Florzinha">
+          <span class="tag">1P</span>
+          <img src="./src/imagens/Florzinha QUADRADO.jpg" alt="Personagem Florzinha" />
+        </li>
+
+        <li class="personagem" id="Fuzzy" data-name="Fuzzy">
+          <span class="tag">1P</span>
+          <img src="./src/imagens/Fuzzy QUADRADO.jpg" alt="Personagem Fuzzy" />
+        </li>
+
+        <li class="personagem" id="Sedusa" data-name="sedusa">
+          <span class="tag">1P</span>
+          <img src="./src/imagens/Sedusa QUADRADO.jpg" alt="Personagem Sedusa" />
+        </li>
+
+        <li class="personagem jogador-2-selecionado" id="macacoLouco" data-name="Macaco Louco">
+          <span class="tag">2P</span>
+          <img src="./src/imagens/Macaco louco QUADRADO.jpg" alt="Macaco Louco" />
+        </li>
+
+        <li class="personagem" id="Professor" data-name="professor">
+          <span class="tag">1P</span>
+          <img src="./src/imagens/Professor QUADRADO.jpg" alt="Personagem Professor" />
+        </li>
+
+        <li class="personagem" id="Lindinha" data-name="lindinha">
+          <span class="tag">1P</span>
+          <img src="./src/imagens/Lindinha QUADRADO.jpg" alt="Personagem Lindinha" />
+        </li>
+
+        <li class="personagem" id="Prefeito" data-name="Prefeito">
+          <span class="tag">1P</span>
+          <img src="./src/imagens/Prefeito QUADRADO.jpg" alt="Personagem Prefeito" />
+        </li>
+      </ul>
+
+      <div class="personagem-grande personagem-jogador-2">
+        <img src="./src/imagens/Macaco louco.png" alt="Personagem selecionado jogador 2" />
+        <div class="nome">
+          <h2>Macaco Louco</h2>
+        </div>
+      </div>
+
+    </div>
+  </main>
+  <script src="./src/js/index.js"></script>
 </body>
 </html>
